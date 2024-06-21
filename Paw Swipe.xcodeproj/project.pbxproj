@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E512D0D52C2526FE00F46E92 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = E512D0D42C2526FE00F46E92 /* About.swift */; };
+		E52E81B52C22707D004C4795 /* Paw_SwipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E81B42C22707D004C4795 /* Paw_SwipeApp.swift */; };
+		E52E81B72C22707D004C4795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E81B62C22707D004C4795 /* ContentView.swift */; };
+		E52E81B92C22707E004C4795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52E81B82C22707E004C4795 /* Assets.xcassets */; };
+		E52E81BC2C22707E004C4795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52E81BB2C22707E004C4795 /* Preview Assets.xcassets */; };
+		E52E81C62C22707E004C4795 /* Paw_SwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E81C52C22707E004C4795 /* Paw_SwipeTests.swift */; };
+		E52E81D02C22707E004C4795 /* Paw_SwipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E81CF2C22707E004C4795 /* Paw_SwipeUITests.swift */; };
+		E52E81D22C22707E004C4795 /* Paw_SwipeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E81D12C22707E004C4795 /* Paw_SwipeUITestsLaunchTests.swift */; };
+		E52E81DF2C22714E004C4795 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E81DE2C22714E004C4795 /* CardView.swift */; };
+		E52E81E22C22BCFD004C4795 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E81E12C22BCFD004C4795 /* History.swift */; };
+		E576CFC42C23D444009947E2 /* paw_swipe_match.wav in Resources */ = {isa = PBXBuildFile; fileRef = E576CFC32C23D444009947E2 /* paw_swipe_match.wav */; };
+		E576CFC62C23E0D9009947E2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E576CFC52C23E0D9009947E2 /* Launch Screen.storyboard */; };
+		E5DF9DA32C235E330066C29E /* Login:Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF9DA22C235E330066C29E /* Login:Signup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E52E81C22C22707E004C4795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52E81A92C22707D004C4795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52E81B02C22707D004C4795;
+			remoteInfo = "Paw Swipe";
+		};
+		E52E81CC2C22707E004C4795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52E81A92C22707D004C4795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52E81B02C22707D004C4795;
+			remoteInfo = "Paw Swipe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E512D0D42C2526FE00F46E92 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		E52E81B12C22707D004C4795 /* Paw Swipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paw Swipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52E81B42C22707D004C4795 /* Paw_SwipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paw_SwipeApp.swift; sourceTree = "<group>"; };
+		E52E81B62C22707D004C4795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E52E81B82C22707E004C4795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E52E81BB2C22707E004C4795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E52E81C12C22707E004C4795 /* Paw SwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paw SwipeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52E81C52C22707E004C4795 /* Paw_SwipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paw_SwipeTests.swift; sourceTree = "<group>"; };
+		E52E81CB2C22707E004C4795 /* Paw SwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paw SwipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52E81CF2C22707E004C4795 /* Paw_SwipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paw_SwipeUITests.swift; sourceTree = "<group>"; };
+		E52E81D12C22707E004C4795 /* Paw_SwipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paw_SwipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E52E81DE2C22714E004C4795 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E52E81E02C228534004C4795 /* Paw-Swipe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Paw-Swipe-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E52E81E12C22BCFD004C4795 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		E576CFC32C23D444009947E2 /* paw_swipe_match.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = paw_swipe_match.wav; path = ../../../../music/paw_swipe_match.wav; sourceTree = "<group>"; };
+		E576CFC52C23E0D9009947E2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E5DF9DA22C235E330066C29E /* Login:Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login:Signup.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E52E81AE2C22707D004C4795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E81BE2C22707E004C4795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E81C82C22707E004C4795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E52E81A82C22707D004C4795 = {
+			isa = PBXGroup;
+			children = (
+				E52E81B32C22707D004C4795 /* Paw Swipe */,
+				E52E81C42C22707E004C4795 /* Paw SwipeTests */,
+				E52E81CE2C22707E004C4795 /* Paw SwipeUITests */,
+				E52E81B22C22707D004C4795 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E52E81B22C22707D004C4795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52E81B12C22707D004C4795 /* Paw Swipe.app */,
+				E52E81C12C22707E004C4795 /* Paw SwipeTests.xctest */,
+				E52E81CB2C22707E004C4795 /* Paw SwipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E52E81B32C22707D004C4795 /* Paw Swipe */ = {
+			isa = PBXGroup;
+			children = (
+				E576CFC22C23D43C009947E2 /* Sounds */,
+				E52E81E02C228534004C4795 /* Paw-Swipe-Info.plist */,
+				E52E81B42C22707D004C4795 /* Paw_SwipeApp.swift */,
+				E52E81B62C22707D004C4795 /* ContentView.swift */,
+				E52E81E12C22BCFD004C4795 /* History.swift */,
+				E52E81B82C22707E004C4795 /* Assets.xcassets */,
+				E52E81BA2C22707E004C4795 /* Preview Content */,
+				E52E81DE2C22714E004C4795 /* CardView.swift */,
+				E5DF9DA22C235E330066C29E /* Login:Signup.swift */,
+				E576CFC52C23E0D9009947E2 /* Launch Screen.storyboard */,
+				E512D0D42C2526FE00F46E92 /* About.swift */,
+			);
+			path = "Paw Swipe";
+			sourceTree = "<group>";
+		};
+		E52E81BA2C22707E004C4795 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E52E81BB2C22707E004C4795 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E52E81C42C22707E004C4795 /* Paw SwipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E52E81C52C22707E004C4795 /* Paw_SwipeTests.swift */,
+			);
+			path = "Paw SwipeTests";
+			sourceTree = "<group>";
+		};
+		E52E81CE2C22707E004C4795 /* Paw SwipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E52E81CF2C22707E004C4795 /* Paw_SwipeUITests.swift */,
+				E52E81D12C22707E004C4795 /* Paw_SwipeUITestsLaunchTests.swift */,
+			);
+			path = "Paw SwipeUITests";
+			sourceTree = "<group>";
+		};
+		E576CFC22C23D43C009947E2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E576CFC32C23D444009947E2 /* paw_swipe_match.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E52E81B02C22707D004C4795 /* Paw Swipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52E81D52C22707E004C4795 /* Build configuration list for PBXNativeTarget "Paw Swipe" */;
+			buildPhases = (
+				E52E81AD2C22707D004C4795 /* Sources */,
+				E52E81AE2C22707D004C4795 /* Frameworks */,
+				E52E81AF2C22707D004C4795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paw Swipe";
+			productName = "Paw Swipe";
+			productReference = E52E81B12C22707D004C4795 /* Paw Swipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E52E81C02C22707E004C4795 /* Paw SwipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52E81D82C22707E004C4795 /* Build configuration list for PBXNativeTarget "Paw SwipeTests" */;
+			buildPhases = (
+				E52E81BD2C22707E004C4795 /* Sources */,
+				E52E81BE2C22707E004C4795 /* Frameworks */,
+				E52E81BF2C22707E004C4795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52E81C32C22707E004C4795 /* PBXTargetDependency */,
+			);
+			name = "Paw SwipeTests";
+			productName = "Paw SwipeTests";
+			productReference = E52E81C12C22707E004C4795 /* Paw SwipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E52E81CA2C22707E004C4795 /* Paw SwipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52E81DB2C22707E004C4795 /* Build configuration list for PBXNativeTarget "Paw SwipeUITests" */;
+			buildPhases = (
+				E52E81C72C22707E004C4795 /* Sources */,
+				E52E81C82C22707E004C4795 /* Frameworks */,
+				E52E81C92C22707E004C4795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52E81CD2C22707E004C4795 /* PBXTargetDependency */,
+			);
+			name = "Paw SwipeUITests";
+			productName = "Paw SwipeUITests";
+			productReference = E52E81CB2C22707E004C4795 /* Paw SwipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52E81A92C22707D004C4795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E52E81B02C22707D004C4795 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E52E81C02C22707E004C4795 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E52E81B02C22707D004C4795;
+					};
+					E52E81CA2C22707E004C4795 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E52E81B02C22707D004C4795;
+					};
+				};
+			};
+			buildConfigurationList = E52E81AC2C22707D004C4795 /* Build configuration list for PBXProject "Paw Swipe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E52E81A82C22707D004C4795;
+			productRefGroup = E52E81B22C22707D004C4795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E52E81B02C22707D004C4795 /* Paw Swipe */,
+				E52E81C02C22707E004C4795 /* Paw SwipeTests */,
+				E52E81CA2C22707E004C4795 /* Paw SwipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E52E81AF2C22707D004C4795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E81BC2C22707E004C4795 /* Preview Assets.xcassets in Resources */,
+				E576CFC42C23D444009947E2 /* paw_swipe_match.wav in Resources */,
+				E576CFC62C23E0D9009947E2 /* Launch Screen.storyboard in Resources */,
+				E52E81B92C22707E004C4795 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E81BF2C22707E004C4795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E81C92C22707E004C4795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E52E81AD2C22707D004C4795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E81B72C22707D004C4795 /* ContentView.swift in Sources */,
+				E512D0D52C2526FE00F46E92 /* About.swift in Sources */,
+				E52E81DF2C22714E004C4795 /* CardView.swift in Sources */,
+				E5DF9DA32C235E330066C29E /* Login:Signup.swift in Sources */,
+				E52E81E22C22BCFD004C4795 /* History.swift in Sources */,
+				E52E81B52C22707D004C4795 /* Paw_SwipeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E81BD2C22707E004C4795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E81C62C22707E004C4795 /* Paw_SwipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E81C72C22707E004C4795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E81D22C22707E004C4795 /* Paw_SwipeUITestsLaunchTests.swift in Sources */,
+				E52E81D02C22707E004C4795 /* Paw_SwipeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E52E81C32C22707E004C4795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52E81B02C22707D004C4795 /* Paw Swipe */;
+			targetProxy = E52E81C22C22707E004C4795 /* PBXContainerItemProxy */;
+		};
+		E52E81CD2C22707E004C4795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52E81B02C22707D004C4795 /* Paw Swipe */;
+			targetProxy = E52E81CC2C22707E004C4795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E52E81D32C22707E004C4795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E52E81D42C22707E004C4795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E52E81D62C22707E004C4795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Paw Swipe/Preview Content\"";
+				DEVELOPMENT_TEAM = 25J3587ZCH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Paw-Swipe-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rishaanjain.Paw-Swipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E52E81D72C22707E004C4795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Paw Swipe/Preview Content\"";
+				DEVELOPMENT_TEAM = 25J3587ZCH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Paw-Swipe-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rishaanjain.Paw-Swipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E52E81D92C22707E004C4795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25J3587ZCH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rishaanjain.Paw-SwipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paw Swipe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paw Swipe";
+			};
+			name = Debug;
+		};
+		E52E81DA2C22707E004C4795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25J3587ZCH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rishaanjain.Paw-SwipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paw Swipe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paw Swipe";
+			};
+			name = Release;
+		};
+		E52E81DC2C22707E004C4795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25J3587ZCH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rishaanjain.Paw-SwipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paw Swipe";
+			};
+			name = Debug;
+		};
+		E52E81DD2C22707E004C4795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25J3587ZCH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rishaanjain.Paw-SwipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paw Swipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E52E81AC2C22707D004C4795 /* Build configuration list for PBXProject "Paw Swipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52E81D32C22707E004C4795 /* Debug */,
+				E52E81D42C22707E004C4795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52E81D52C22707E004C4795 /* Build configuration list for PBXNativeTarget "Paw Swipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52E81D62C22707E004C4795 /* Debug */,
+				E52E81D72C22707E004C4795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52E81D82C22707E004C4795 /* Build configuration list for PBXNativeTarget "Paw SwipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52E81D92C22707E004C4795 /* Debug */,
+				E52E81DA2C22707E004C4795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52E81DB2C22707E004C4795 /* Build configuration list for PBXNativeTarget "Paw SwipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52E81DC2C22707E004C4795 /* Debug */,
+				E52E81DD2C22707E004C4795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E52E81A92C22707D004C4795 /* Project object */;
+}
